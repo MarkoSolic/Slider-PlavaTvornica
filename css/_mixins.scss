@@ -1,0 +1,17 @@
+$primaryColor: #134880;
+$paragraphColor: #484a4c;
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+@mixin spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin columnBetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

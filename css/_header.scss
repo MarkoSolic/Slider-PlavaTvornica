@@ -1,0 +1,16 @@
+@import "./mixins";
+header {
+  @include spaceBetween();
+  .header_box1 {
+    width: 301px;
+    height: 100px;
+    background-color: #dddddd;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .header_box2 {
+    width: 621px;
+    height: 100px;
+    background-color: #dddddd;
+    border-radius: 0px 0px 5px 5px;
+  }
+}

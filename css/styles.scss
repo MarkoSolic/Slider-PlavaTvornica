@@ -1,0 +1,19 @@
+@import "./header";
+@import "./footer";
+@import "./text";
+@import "./content";
+@import "./mixins";
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 730px;
+
+  .container {
+    width: 940px;
+    height: 100vh;
+    margin: auto;
+    @include columnBetween();
+  }
+}
